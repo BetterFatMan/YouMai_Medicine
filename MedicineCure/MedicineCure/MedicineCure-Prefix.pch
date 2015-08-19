@@ -1,0 +1,30 @@
+//
+// Prefix header for all source files of the 'MedicineCure' target in the 'Line0new' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    #import "AppConfig.h"
+    #import "InLineDefine.h"
+    #import "MacroDefine.h"
+    #import "NetworkAPI.h"
+    #import "MKNetworkKit.h"
+    #import "UIView+Frame.h"
+    #import "CategoryUtils.h"
+    #import "MobClick.h"
+    #import "BaseViewController.h"
+    #import "BaseEntity.h"
+    #import "UserDefaultControl.h"
+    #import "UIImageView+WebCache.h"
+    #import "LWaittingView.h"
+
+#endif
